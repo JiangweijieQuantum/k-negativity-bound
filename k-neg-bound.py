@@ -229,7 +229,7 @@ if __name__ == "__main__":
         # Save traces
         with open("seesaw_traces.pkl", "wb") as f:
             pickle.dump(traces, f)
-        print(f"Traces saved to '{trace_file}'.")
+        print(f"Traces saved to 'seesaw_traces.pkl'.")
 
     # ---------- 2. Plotting ----------
     plt.rcParams.update({
